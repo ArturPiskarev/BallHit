@@ -4,15 +4,15 @@ namespace MP.PlATFORM
 {
     public class Platform : MonoBehaviour
     {
-        [SerializeField] private int score = 0;
+        [SerializeField] public static int Score = 0;
 
         [SerializeField] private SpriteRenderer spriteRenderer = null;
 
-        public int Score
-        {
-            get { return score; }
-            set { score = value; }
-        }
+        //public int Score
+        //{
+        //    get { return score; }
+        //    set { score = value; }
+        //}
 
         public SpriteRenderer SpiteRenderer
         {

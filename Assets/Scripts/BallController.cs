@@ -9,11 +9,11 @@ namespace MP.BALL
         [Inject] private Ball ball;
         [Inject] private UI.UI ui;
         [SerializeField] private GameObject platform;
-        private Platform platformScript;
+        
 
         private void Start()
         {
-           platformScript= platform.GetComponent<Platform>();
+          // platformScript= platform.GetComponent<Platform>();
         }
 
         private void FixedUpdate()
@@ -35,7 +35,7 @@ namespace MP.BALL
             if (platform.gameObject.tag == "Platform")
             {
                 //Score in Menu
-                ui.Score.GetComponent<Text>().text="Ball Hit: "+ platformScript.Score;}
+                ui.Score.GetComponent<Text>().text="Ball Hit: "+ Platform.Score;}
             }
         }
 }
