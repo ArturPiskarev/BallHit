@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873794b6a970e1844b294f6775b7ef1a, type: 3}
+  m_Name: SOInstallers
+  m_EditorClassIdentifier: 
+  soEarth: {fileID: 11400000, guid: 0197b7ef897304c48ba80ae669cbad53, type: 2}
+  soMoon: {fileID: 11400000, guid: e91c189d847f20c47b635f221ada3b8c, type: 2}
+  soJupiter: {fileID: 11400000, guid: 031a6f2b6eec851469da03f34e27e916, type: 2}
